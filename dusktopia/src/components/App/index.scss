@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mazzard';
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    max-width: 90%;
+}

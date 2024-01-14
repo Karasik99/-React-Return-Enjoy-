@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Mazzard';
+    src: url(./fonts/MazzardL-Bold.woff2) format('woff2');
+    font-weight: 700;
+  }
+
+
+@font-face {
+  font-family: 'Mazzard';
+  src: url(./fonts/MazzardL-Regular.woff2) format('woff2');
+  font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Octosquares';
+    src: url(./fonts/TTOctosquares-XBoldIt.woff2) format('woff2');
+    font-weight: 400;
+  }
+  

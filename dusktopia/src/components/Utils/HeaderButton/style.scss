@@ -1,0 +1,36 @@
+
+
+.header__button {
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    background-color: transparent;
+    background-image: url('./images/button.svg');
+    width: 12.5rem;
+    height: 3.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(0.8rem, 0.9vw, 1rem);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.08rem;
+    transform: scale(1);
+    transition: transform 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s;
+    }
+}
+
+@media (max-width: 53rem) {
+    .header__button {
+        background-image: none;
+        width: min-content;
+        height: min-content;
+        border: 0.063rem solid white;
+        padding: 0.313rem;
+        border-radius: 0.625rem;
+    }
+}

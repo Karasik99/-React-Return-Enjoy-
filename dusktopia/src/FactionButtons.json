@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "blighted Badlands",
+        "image": "/images/bar.jpg",
+        "buttonimg": "/images/button.svg"
+    },
+    {
+        "id": 2,
+        "name": "Glacial Frontier",
+        "image": "/images/bar-2.jpg",
+        "buttonimg": "/images/button-2.svg"
+    },
+    {
+        "id": 3,
+        "name": "Sundered Grove",
+        "image":" /images/bar-3.jpg",
+        "buttonimg": "/images/button-3.svg"
+    },
+    {
+        "id": 4,
+        "name": "Sky Citadel",
+        "image": "/images/bar-4.jpg",
+        "buttonimg": "/images/button-4.svg"
+    }
+]

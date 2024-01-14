@@ -1,0 +1,103 @@
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 3.125rem 0 0 0;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 18.75rem;
+    }
+
+    &__logo {
+        color: #fff;
+        font-family: 'Octosquares';
+        font-size: clamp(0.6rem, 2.2vw, 3.125rem);
+        font-weight: 400;
+        letter-spacing: 0.6rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    &__content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Octosquares';
+        text-transform: uppercase;
+        font-size: clamp(1.2rem, 2.5vw, 3.75rem);
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.5rem;
+        color: #fff;
+        margin-bottom: 10.5rem;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 1.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__inner {
+        position: relative;
+    }
+
+    &__sidebar {
+        position: absolute;
+        top: -50%;
+        left: 0%;
+        width: 2.5rem;
+        height: clamp(31.25rem, 30vw, 51.25rem);
+    }
+
+    &__sidebar-menu {
+        display: flex;
+        height: inherit;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__sidebar-item {
+        transform: rotateZ(90deg);
+    }
+
+    &__sidebar-link {
+        text-decoration: none;
+        font-size: clamp(0.875rem, 1vw, 1.25rem);
+        font-weight: 400;
+        color: #fff;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+@media (max-width: 53rem) {
+    .header__menu {
+        flex-direction: column;
+    }
+
+    .header__nav {
+        margin-bottom: 10rem;
+    }
+}

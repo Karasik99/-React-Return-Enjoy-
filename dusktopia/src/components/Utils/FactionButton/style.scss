@@ -1,0 +1,50 @@
+
+
+.factions__card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &-title {
+        font-size: clamp(0.8rem, 1vw, 1.5rem);
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    &-image {
+        width: clamp(13rem, 13vw, 25rem);
+    }
+
+    &-button {
+        width: 7.8rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 25%;
+        left: -25%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        background-image: url('./images/button.svg');
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: clamp(0.8rem, 0.9vw, 1rem);
+        font-weight: 700;
+        letter-spacing: 0.08rem;
+        transform: scale(1);
+        transition: transform 0.2s;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.2s;
+        }
+    }
+}

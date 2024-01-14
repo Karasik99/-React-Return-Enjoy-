@@ -1,0 +1,57 @@
+[
+    {
+      "Id": 1,
+      "Imagetitle": "/images/page-1/title.png",
+      "ImageIcon":["/images/page-1/icon.png",
+        "/images/page-1/icon-2.png",
+        "/images/page-1/icon-3.png",
+        "/images/page-1/icon-4.png",
+        "/images/page-1/icon-5.png",
+        "/images/page-1/icon-6.png",
+        "/images/page-1/icon-7.png",
+        "/images/page-1/icon-8.png"],
+      "TextContent":" Modern-day Dusktopia begins here The first thing that counts here is survival Only then can you think of profit; then finally domination Forge your alliances with the EON Corporation, the rival mafia gangs, or even an utterly corrupt police force - and crush all standing in your way",
+      "BackG":"/images/background-1.jpg"
+    },
+    {
+        "Id": 2,
+        "Imagetitle": "/images/page-2/title.png",
+        "ImageIcon":["/images/page-2/icon.png",
+        "/images/page-2/icon-2.png",
+        "/images/page-2/icon-3.png",
+        "/images/page-2/icon-4.png",
+        "/images/page-2/icon-5.png",
+        "/images/page-2/icon-6.png",
+        "/images/page-2/icon-7.png",
+        "/images/page-2/icon-8.png"],
+        "TextContent":" The home of everything warfare in Dusktopia Mercenaries and soldiers take payouts from the Cabal to do its bidding - but some want more for themselves, and are willing to go against power itself to get it Which side are you joining? ",
+        "BackG":"/images/background-2.jpg"
+      },
+      {
+        "Id": 3,
+        "Imagetitle": "/images/page-3/title.png",
+        "ImageIcon":["/images/page-1/icon.png",
+        "/images/page-3/icon-2.png",
+        "/images/page-3/icon-3.png",
+        "/images/page-3/icon-4.png",
+        "/images/page-3/icon-5.png",
+        "/images/page-3/icon-6.png",
+        "/images/page-3/icon-7.png",
+        "/images/page-3/icon-8.png"],
+        "TextContent":" Dusktopia’s last remaining sanctuary of peace Researchers and scientists congregate here to live in religious pacifism, spending their time developing a renewable energy source for the world A small faction wants more - selling Aurium on the black market for their own personal gain Will you root out the traitors or join them?", "BackG":"/images/background-3.jpg"
+      },
+      {
+        "Id": 4,
+        "Imagetitle": "/images/page-4/title.png",
+        "ImageIcon":["/images/page-1/icon.png",
+        "/images/page-4/icon-2.png",
+        "/images/page-4/icon-3.png",
+        "/images/page-4/icon-4.png",
+        "/images/page-4/icon-5.png",
+        "/images/page-4/icon-6.png",
+        "/images/page-4/icon-7.png",
+        "/images/page-4/icon-8.png"],
+        "TextContent":" These are where the apex predators in Dusktopia reside The political and economic masters of all society: living high above the suffering of ordinary denizens, and calmly plot elevated pursuits like space colonization in absolute peace If you’re lucky enough to be part of it, hold on tight - everybody wants what you have",
+        "BackG":"/images/background-4.jpg"
+      }
+]

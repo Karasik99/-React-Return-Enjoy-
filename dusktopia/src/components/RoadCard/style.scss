@@ -1,0 +1,63 @@
+
+
+.road{
+
+    &__card {
+        position: relative;
+        background-image: url('./images/road-btn.png');
+        max-width: 24rem;
+        min-height: 9rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 0.6rem;
+        background-size: contain;
+        cursor: pointer;
+        color: #fff;
+        transition: all 1.2s;
+        transform: scale(0.8);
+
+        &:hover {
+            background-image: url('./images/road-card-2.png');
+            color: #263044;
+            transform: scale(1);
+            transition: all 1.2s;
+
+            &::before {
+                content: url('./images/button-gradient.png');
+                transition: all 1.2s;
+                position: absolute;
+                top: 8%;
+                right: 0;
+            }
+        }
+
+        &-title {
+            font-size: clamp(1rem, 1.5vw, 5rem);
+            font-weight: 700;
+        }
+
+        &-subtitle {
+            font-size: clamp(1rem, 1vw, 3rem);
+            font-weight: 700;
+        }
+
+        &-text {
+            font-size: clamp(0.8rem, 1vw, 3rem);
+        }
+    }
+}
+
+@media (max-width: 34.5rem) {
+    .road__card {
+        background-image: none;
+        padding: 0.6rem;
+        background-color: #553b64;
+        border-radius: 1rem;
+        height: max-content;
+    }
+}

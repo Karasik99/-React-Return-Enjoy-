@@ -1,0 +1,36 @@
+[
+    {
+        "id": "01",
+        "name": "GENESIS LANDS DROP",
+        "textcontent":
+            "An original collection of 5.555 land plots will be made ready for the very first Dusktopian adventurers.",
+        "background": "/images/motel.png"
+    },
+    {
+        "id": "02",
+        "name": "STAKING GOES LIVE",
+        "textcontent":
+            "The EON Corporation Superbank begins rewarding Dusktopians staking their land plots with $DAWN.",
+        "background": "/images/gun.png"
+    },
+    {
+        "id": "03",
+        "name": "NEW WORLDS EMERGE",
+        "textcontent":
+            "Claim a slice of our secret land collection with $DAWN. Outfit your existing land with new properties and accessories.",
+        "background": "/images/town.png"
+    },
+    {
+        "id": "04",
+        "name": "AVATAR COLLECTION DROP",
+        "textcontent":
+            "Get the PFP avatars you will use for in-universe interaction, synergized with your asset holdings.",
+        "background": "/images/snow-base.png"
+    },
+    {
+        "id": "05",
+        "name": "LET THE GAMES BEGIN",
+        "background": "/images/office.png"
+    }
+]
+
